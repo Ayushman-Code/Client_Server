@@ -16,7 +16,7 @@ dos.writeUTF(word);
 DataInputStream ifs = new DataInputStream(s.getInputStream());
 String str=(String)ifs.readUTF();
 System.out.println(str);
-System.out.println("Connection End");
+System.out.println("Connection Terminated");
 ss.close();  
 dos.close();
 
